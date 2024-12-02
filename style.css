@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main-navigation-bar{
+    background-color: black;
+    color: #ebb30f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#main-navigation-bar div ul li a{
+    text-decoration: none;
+    color: #ebb30f;
+}
+
+#main-navigation-bar div h1:hover{
+    cursor: pointer;
+}
+
+#main-navigation-bar div ul li a:hover{
+    color: white;
+}
+
+#main-navigation-bar div ul li{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+
+
+.heading-github h1{
+    color: red;
+}
+
+.heading-vscode h1{
+    color: red;
+}
+
+.heading-github{
+    margin-top: 20px;
+}
+
+.heading-vscode{
+    margin-top: 20px;
+}
+
+.calculate-js{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.calculate-js button{
+    padding: 10px;
+    background-color: blue;
+    color: yellow;
+    border: dotted 2px black;
+}
+
+.calculate-js button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: black;
+    color: #ebb30f;
+    margin-top: 50px;
+}
